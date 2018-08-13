@@ -1,11 +1,10 @@
 @import url(font-awesome.min.css);
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:700,900');
+@import url('https://fonts.googleapis.com/css?family=EB+Garamond:700');
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+@import url('https://fonts.googleapis.com/css?family=Homemade+Apple|Permanent+Marker');
 
-/*
-	Phantom by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
-*/
 
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
@@ -167,30 +166,34 @@ input, select, textarea {
 	}
 
 	h1 {
-		font-size: 2.75em;
+		font-family: 'Eb Garamond', serif;
+		font-size: 7em;
 		font-weight: 700;
-		line-height: 1.3;
-		margin: 0 0 1em 0;
-		letter-spacing: -0.035em;
+	/*	line-height: 1.3;*/
+	/*	margin: 0 0 1em 0;*/
+		/*letter-spacing: -0.035em;*/
+		text-align: center;
+		/*border-top: 2px solid black;
+		border-bottom: 2px solid black;*/
 	}
 
 		h1 a {
 			color: inherit;
 		}
 
-		@media screen and (max-width: 736px) {
+		@media screen and (max-width: 780px) {
 
 			h1 {
-				font-size: 2em;
-				margin: 0 0 1em 0;
+				font-size: 5em;
+				/*margin: 0 0 1em 0;*/
 			}
 
 		}
 
-		@media screen and (max-width: 360px) {
+		@media screen and (max-width: 550px) {
 
 			h1 {
-				font-size: 1.75em;
+				font-size: 3em;
 			}
 
 		}
@@ -208,15 +211,22 @@ input, select, textarea {
 		}
 
 	h2 {
-		font-size: 1.1em;
+	
+		font-size: 1.3em;
+		
 	}
 
 	h3 {
-		font-size: 1em;
+		font-size: 1.3em;
+		text-align: center;
 	}
 
 	h4 {
-		font-size: 0.8em;
+		font-family: 'Playfair Display', serif;
+		text-transform: none;
+		letter-spacing: .1em;
+		font-size: 2em;
+		text-align: center;
 	}
 
 	h5 {
@@ -246,6 +256,17 @@ input, select, textarea {
 		}
 
 	}
+
+	.firstcharacter {
+  color: #903;
+  float: left;
+  font-family: Georgia;
+  font-size: 75px;
+  line-height: 60px;
+  padding-top: 4px;
+  padding-right: 8px;
+  padding-left: 3px;
+}
 
 	sub {
 		font-size: 0.8em;
@@ -290,10 +311,21 @@ input, select, textarea {
 			overflow-x: auto;
 		}
 
-	hr {
-		border: 0;
-		border-bottom: solid 1px #c9c9c9;
-		margin: 2em 0;
+	hr.hr1 {
+	border: 0; 
+  height: 3px; 
+  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
+		/*border: 0;
+		border-bottom: solid 1px #c9c9c9;*/
+		/*margin: 0em 0;*/
+	}
+
+	hr.hr2 {
+			border-top: 1px dashed #8c8b8b;
+			margin-top: 0px;
 	}
 
 		hr.major {
@@ -1798,6 +1830,20 @@ input, select, textarea {
 
 	}
 
+	.signature h5{
+			font-family: 'Homemade Apple', cursive;
+			text-transform: none;
+			margin-bottom: 0px;
+			font-size: 4em;
+			text-align: center;
+			letter-spacing: 0em;
+		}
+
+		.signature h6 {
+			font-family: FivoRegularOblique, sans-serif;
+			text-align: center;
+		}
+
 /* Icon */
 
 	.icon {
@@ -2697,7 +2743,7 @@ input, select, textarea {
 			}
 
 			.tiles article.style4 > .image:before {
-				background-color: #c75b9b;
+				background-color: #45191A;
 			}
 
 			.tiles article.style5 > .image:before {
