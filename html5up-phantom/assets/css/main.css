@@ -145,12 +145,11 @@ input, select, textarea {
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
 		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
 	}
 
 		a:hover {
 			border-bottom-color: transparent;
-			color: #C83E45 !important;
+			color: #C83E45;
 		}
 
 	strong, b {
@@ -3191,11 +3190,11 @@ input, select, textarea {
 
 	#footer {
 		padding: 2em 0 1em 0;
-		background: #65893a;
+		background: #C43E3D;
 		text-align: center;
 		color: rgba(255,255,255, 0.5);
-		font-size: .85em;
-		font-family: Fivo;
+		font-size: .8em;
+		font-family: "Source Sans Pro", sans-serif;
 	}
 
 		#footer h2 {
@@ -3207,7 +3206,12 @@ input, select, textarea {
 		}
 
 		#footer a {
-			color: #a5c67a;
+			color: rgba(255,255,255, 0.5);;
+			text-decoration: none;
+		}
+
+		#footer a:hover {
+			color: rgba(255,255,255, 0.2);
 			text-decoration: none;
 		}
 
