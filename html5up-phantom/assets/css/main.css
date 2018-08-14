@@ -2605,15 +2605,19 @@ section, summary, time, mark, audio, video {
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;*/
-		-moz-flex-wrap: wrap;
+		/*-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
-		flex-wrap: wrap;
-		height: 400px
+		flex-wrap: wrap;*/
+		/*height: 400px*/
 	}
+/*
+	.content {
+		max-width: 200px;
+	}*/
 
 	.scrollmenu img {
-		display: inline-block;
+		/*display: inline-block;*/
 		color: white;
 		text-align: center;
 		padding: 14px;
@@ -2638,9 +2642,8 @@ section, summary, time, mark, audio, video {
 		transition: transform 0.5s ease, opacity 0.5s ease;
 		position: relative;
 		width: calc(50% - 2.5em);
-		margin: 2.5em 0 0 2.5em;
-		  display:inline-block;
-
+		margin: 2.5em 0 2.5em 2.5em;
+		display:inline-block;
 	}
 
 	article > .image {
@@ -2649,10 +2652,10 @@ section, summary, time, mark, audio, video {
 		-ms-transition: -ms-transform 0.5s ease;
 		transition: transform 0.5s ease;
 		position: relative;
-		display: block;
-		width: 100%;
+		/*display: block;*/
+		/*width: 100%;*/
 		border-radius: 4px;
-		overflow: hidden;
+		/*overflow: hidden;*/
 	}
 
 	article > .image img {
@@ -2732,7 +2735,7 @@ article > a {
 	text-decoration: none;
 	z-index: 3;
 }
-/*
+
 article > a > :last-child {
 	margin: 0;
 }
@@ -2743,9 +2746,9 @@ article > a:hover {
 
 article > a h2 {
 	margin: 0;
-}*/
+}
 
-/*article > a .content {
+article > a .content {
 	-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
 	-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
 	-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -2755,7 +2758,7 @@ article > a h2 {
 	line-height: 1.5;
 	margin-top: 0.35em;
 	opacity: 0;
-}*/
+}
 
 article > a .content > :last-child {
 	margin-bottom: 0;
@@ -2805,7 +2808,6 @@ body:not(.is-touch)   article:hover .content {
 	max-height: 15em;
 	opacity: 1;
 }
-
 
 body.is-preload  article {
 	-moz-transform: scale(0.9);
