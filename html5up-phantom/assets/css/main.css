@@ -98,7 +98,8 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background-color: #e4e6e5;
+background-image: url("https://www.transparenttextures.com/patterns/natural-paper.png");
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -313,13 +314,11 @@ input, select, textarea {
 	hr.hr1 {
 	border: 0; 
   height: 3px; 
-  background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
-  background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
-		/*border: 0;
-		border-bottom: solid 1px #c9c9c9;*/
-		/*margin: 0em 0;*/
+  background-image: -webkit-linear-gradient(left, #e4e6e5, #8c8b8b, #e4e6e5);
+  background-image: -moz-linear-gradient(left, #e4e6e5, #8c8b8b, #e4e6e5);
+  background-image: -ms-linear-gradient(left, #e4e6e5, #8c8b8b, #e4e6e5);
+  background-image: -o-linear-gradient(left, #e4e6e5, #8c8b8b, #e4e6e5); 
+
 	}
 
 	hr.hr2 {
@@ -2588,7 +2587,7 @@ input, select, textarea {
 /*		carousel*/
 
 div.scrollmenu {
-    background-color: #333;
+    background-color: #2A282E;
     overflow: auto;
     white-space: nowrap;
 }
@@ -2599,20 +2598,17 @@ div.scrollmenu img {
     text-align: center;
     padding: 14px;
     text-decoration: none;
-    height: 300px;
+    height: 350px;
 }
 
 div.scrollmenu img:hover {
-    background-color: #777;
+	 background-color: #464646;
 }
 
 /* section header */
 .sectionHeader h1 {
 	text-align: left;
 }
-
-
-
 
 /* Tiles */
 
