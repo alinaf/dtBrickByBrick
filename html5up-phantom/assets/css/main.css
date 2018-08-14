@@ -2596,7 +2596,7 @@ section, summary, time, mark, audio, video {
 		opacity: 0.25;
 	}
 
-	/*		carousel*/
+	/*carousel*/
 	.scrollmenu {
 		background-color: #2A282E;
 		overflow: auto;
@@ -2620,10 +2620,9 @@ section, summary, time, mark, audio, video {
 		/*display: inline-block;*/
 		color: white;
 		text-align: center;
-		padding: 14px;
+		/*padding: 14px;*/
 		text-decoration: none;
-		height: 300px;
-
+		height: auto;
 		-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
 		-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
@@ -2860,7 +2859,6 @@ body.is-touch  article .content {
 	transition: transform 0.5s ease;
 	position: relative;
 	display: block;
-	width: 100%;
 	border-radius: 4px;
 	overflow: hidden;
 }
@@ -3041,8 +3039,8 @@ body.is-touch .tiles article .content {
 	}*/
 
 	 article {
-		width: calc(50% - 1.25em);
-		margin: 1.25em 0 0 1.25em;
+		width: 45%;
+		/*margin: 1.25em 0 0 1.25em;*/
 	}
 
 }
@@ -3054,8 +3052,8 @@ body.is-touch .tiles article .content {
 	}*/
 
 	 article {
-		width: 75%;
-		margin: 2.5em 0 0 2.5em;
+		width: 65%;
+		/*margin: 2.5em 0 0 2.5em;*/
 	}
 
 }
@@ -3068,7 +3066,7 @@ body.is-touch .tiles article .content {
 
 	article {
 		width: 100%;
-		margin: 1.25em 0 0 1.25em;
+		/*margin: 1.25em 0 0 1.25em;*/
 	}
 
 	.tiles article:hover > .image {
