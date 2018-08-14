@@ -2590,27 +2590,28 @@ section, summary, time, mark, audio, video {
 	}
 
 	/*		carousel*/
-	div.scrollmenu {
+	.scrollmenu {
 		background-color: #2A282E;
 		overflow: auto;
 		white-space: nowrap;
-		display: -moz-flex;
+		/*display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
-		display: flex;
+		display: flex;*/
 		-moz-flex-wrap: wrap;
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		height: 400px
 	}
 
-	div.scrollmenu img {
+	.scrollmenu img {
 		display: inline-block;
 		color: white;
 		text-align: center;
 		padding: 14px;
 		text-decoration: none;
-		height: 350px;
+		height: 300px;
 
 		-moz-transition: -moz-transform 0.5s ease, opacity 0.5s ease;
 		-webkit-transition: -webkit-transform 0.5s ease, opacity 0.5s ease;
@@ -2629,8 +2630,10 @@ section, summary, time, mark, audio, video {
 		-ms-transition: -ms-transform 0.5s ease, opacity 0.5s ease;
 		transition: transform 0.5s ease, opacity 0.5s ease;
 		position: relative;
-		width: calc(33.3333333333% - 2.5em);
+		width: calc(50% - 2.5em);
 		margin: 2.5em 0 0 2.5em;
+		  display:inline-block;
+
 	}
 
 	article > .image {
@@ -2681,8 +2684,7 @@ section, summary, time, mark, audio, video {
 		left: 0;
 		width: 100%;
 		height: 100%;
-/*					background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100' height='100' viewBox='0 0 100 100' preserveAspectRatio='none'%3E%3Cstyle%3Eline %7B stroke-width: 0.25px%3B stroke: %23ffffff%3B %7D%3C/style%3E%3Cline x1='0' y1='0' x2='100' y2='100' /%3E%3Cline x1='100' y1='0' x2='0' y2='100' /%3E%3C/svg%3E");
-*/					background-position: center;
+					background-position: center;
 background-repeat: no-repeat;
 background-size: 100% 100%;
 opacity: 0.25;
@@ -2723,7 +2725,7 @@ article > a {
 	text-decoration: none;
 	z-index: 3;
 }
-
+/*
 article > a > :last-child {
 	margin: 0;
 }
@@ -2734,9 +2736,9 @@ article > a:hover {
 
 article > a h2 {
 	margin: 0;
-}
+}*/
 
-article > a .content {
+/*article > a .content {
 	-moz-transition: max-height 0.5s ease, opacity 0.5s ease;
 	-webkit-transition: max-height 0.5s ease, opacity 0.5s ease;
 	-ms-transition: max-height 0.5s ease, opacity 0.5s ease;
@@ -2746,7 +2748,7 @@ article > a .content {
 	line-height: 1.5;
 	margin-top: 0.35em;
 	opacity: 0;
-}
+}*/
 
 article > a .content > :last-child {
 	margin-bottom: 0;
