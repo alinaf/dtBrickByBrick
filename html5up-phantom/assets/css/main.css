@@ -273,6 +273,13 @@ section, summary, time, mark, audio, video {
 		margin-right: 10%;
 	}
 
+	.letter a {
+		color: #C43E3D;
+		text-decoration: underline;
+		margin-left: 4px;
+		margin-right: 4px;
+	}
+
 	sub {
 		font-size: 0.8em;
 		position: relative;
